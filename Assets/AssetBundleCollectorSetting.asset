@@ -51,3 +51,16 @@ MonoBehaviour:
         FilterRuleName: CollectAll
         AssetTags: mainScene
         UserData: 
+    - GroupName: Sounds
+      GroupDesc: "\u6E38\u620F\u97F3\u6548"
+      AssetTags: Sound
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/Game/AssetsPackage/Sounds
+        CollectorGUID: 6b503df2b42adb9428ae030900b1209b
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 

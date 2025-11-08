@@ -33,6 +33,7 @@ public class Boot : UnitySingleton<Boot>
         this.gameObject.AddComponent<ResMgr>().Init();
         this.gameObject.AddComponent<EventMgr>().Init();
         this.gameObject.AddComponent<TimerMgr>().Init();
+        this.gameObject.AddComponent<SoundMgr>().Init();
         
         this.gameObject.AddComponent<SceneMgr>().Init();
         this.gameObject.AddComponent<GameApp>().Init();
