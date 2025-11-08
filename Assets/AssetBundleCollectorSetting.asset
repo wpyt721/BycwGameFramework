@@ -25,8 +25,29 @@ MonoBehaviour:
     AutoCollectShaders: 1
     IgnoreRuleName: NormalIgnoreRule
     Groups:
-    - GroupName: Default Group
+    - GroupName: Datas
       GroupDesc: 
       AssetTags: 
       ActiveRuleName: EnableGroup
-      Collectors: []
+      Collectors:
+      - CollectPath: Assets/Game/AssetsPackage/Datas
+        CollectorGUID: 592ea53c9660ab641b6d7ee4cce3d8b7
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: GameConfig
+        UserData: 
+    - GroupName: Scenes
+      GroupDesc: "\u6E38\u620F\u573A\u666F"
+      AssetTags: 
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/Game/AssetsPackage/Scenes
+        CollectorGUID: 0c2d68c6621390145bdb702a2f9a84bb
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: mainScene
+        UserData: 
