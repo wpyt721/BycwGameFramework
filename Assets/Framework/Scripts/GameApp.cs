@@ -41,9 +41,26 @@ public class GameApp : UnitySingleton<GameApp>
         // Debugger.Log("test game4");
         // Debugger.Log("test game5");
         
-        EventMgr.Instance.AddListener("test", this.OnTestCall);
-        EventMgr.Instance.RemoveListener("test", this.OnTestCall);
-        EventMgr.Instance.Emit("test", 77777);
+        // EventMgr.Instance.AddListener("test", this.OnTestCall);
+        // EventMgr.Instance.RemoveListener("test", this.OnTestCall);
+        // EventMgr.Instance.Emit("test", 77777);
+        
+        //Timer测试
+        TimerMgr.Instance.ScheduleOnce((o =>
+        {
+            Debug.Log("one time ###");
+        }), 5f);
+
+        int timerId = TimerMgr.Instance.Schedule(((object udata) =>
+        {
+            Debug.Log("every time###");
+        }), -1, 1, 5f);
+
+        TimerMgr.Instance.ScheduleOnce(((object udata) =>
+        {
+            Debug.Log("cancel time");
+            TimerMgr.Instance.Unschedule(timerId);
+        }), 10);
     }
 
     private void OnTestCall(string test, object udata)

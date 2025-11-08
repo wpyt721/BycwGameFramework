@@ -32,6 +32,8 @@ public class Boot : UnitySingleton<Boot>
         Debug.Log("InitFramework");
         this.gameObject.AddComponent<ResMgr>().Init();
         this.gameObject.AddComponent<EventMgr>().Init();
+        this.gameObject.AddComponent<TimerMgr>().Init();
+        
         this.gameObject.AddComponent<SceneMgr>().Init();
         this.gameObject.AddComponent<GameApp>().Init();
 
