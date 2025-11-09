@@ -1,6 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using LitJson;
+
+class UserLogin
+{
+    public string uname;
+    public string upwd;
+    public int status;
+}
 
 public class GameApp : UnitySingleton<GameApp>
 {
@@ -65,7 +73,26 @@ public class GameApp : UnitySingleton<GameApp>
         //测试声音
         // SoundMgr.Instance.PlayMusic("Sounds/回答1_01");
         // SoundMgr.Instance.PlaySound("Sounds/回答1_01");
-        SoundMgr.Instance.PlayOneShot("Sounds/回答1_01");
+        // SoundMgr.Instance.PlayOneShot("Sounds/回答1_01");
+        
+        
+        //json序列化与反序列化的测试
+        UserLogin user = new UserLogin();
+        user.uname = "test";
+        user.upwd = "123456";
+        user.status = -101;
+        
+        string jsonStr = JsonMapper.ToJson(user);
+        Debug.Log(jsonStr);
+
+        var byteData = jsonStr.ToCharArray();
+        
+        //反序列化
+        string jsonFileStr = ResMgr.Instance.LoadAssetSync<TextAsset>("Datas/JsonText").text;
+        JsonData jsonData = JsonMapper.ToObject(jsonFileStr);
+        Debug.Log(jsonData.ToString());
+        var resCode = jsonData["rst"]["rstCode"].ToString();
+        Debug.Log(resCode);
     }
 
     private void OnTestCall(string test, object udata)
