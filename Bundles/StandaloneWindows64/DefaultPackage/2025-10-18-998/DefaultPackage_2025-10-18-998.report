@@ -1,0 +1,95 @@
+{
+    "Summary": {
+        "YooVersion": "2.3.15",
+        "UnityVersion": "2023.1.6f1",
+        "BuildDate": "2025/10/18 16:38:58",
+        "BuildSeconds": 8,
+        "BuildTarget": 19,
+        "BuildPipeline": "ScriptableBuildPipeline",
+        "BuildBundleType": 2,
+        "BuildPackageName": "DefaultPackage",
+        "BuildPackageVersion": "2025-10-18-998",
+        "BuildPackageNote": "2025/10/18 16:38:50",
+        "UniqueBundleName": false,
+        "EnableAddressable": false,
+        "SupportExtensionless": true,
+        "LocationToLower": false,
+        "IncludeAssetGUID": false,
+        "AutoCollectShaders": true,
+        "IgnoreRuleName": "YooAsset.Editor.NormalIgnoreRule",
+        "ClearBuildCacheFiles": false,
+        "UseAssetDependencyDB": false,
+        "EnableSharePackRule": true,
+        "SingleReferencedPackAlone": true,
+        "EncryptionServicesClassName": "YooAsset.Editor.EncryptionNone",
+        "ManifestProcessServicesClassName": "YooAsset.Editor.ManifestProcessNone",
+        "ManifestRestoreServicesClassName": "YooAsset.Editor.ManifestRestoreNone",
+        "FileNameStyle": 0,
+        "CompressOption": 2,
+        "DisableWriteTypeTree": false,
+        "IgnoreTypeTreeChanges": true,
+        "WriteLinkXML": true,
+        "CacheServerHost": "",
+        "CacheServerPort": 0,
+        "BuiltinShadersBundleName": "unityshaders.bundle",
+        "MonoScriptsBundleName": "",
+        "AssetFileTotalCount": 2,
+        "MainAssetTotalCount": 2,
+        "AllBundleTotalCount": 1,
+        "AllBundleTotalSize": 3897,
+        "EncryptedBundleTotalCount": 0,
+        "EncryptedBundleTotalSize": 0
+    },
+    "AssetInfos": [
+        {
+            "Address": "",
+            "AssetPath": "Assets/Game/AssetsPackage/Datas/突发公共卫生事件_CaseSurvey.json",
+            "AssetGUID": "fe44a2f8c8665b146a384fd5a697884e",
+            "AssetTags": [
+                "GameConfig"
+            ],
+            "MainBundleName": "assets_game_assetspackage_datas.bundle",
+            "MainBundleSize": 3897,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Game/AssetsPackage/Datas/突发公共卫生事件_Disinfect.json",
+            "AssetGUID": "ae359c9b908daee44bd69e7581ba6eff",
+            "AssetTags": [
+                "GameConfig"
+            ],
+            "MainBundleName": "assets_game_assetspackage_datas.bundle",
+            "MainBundleSize": 3897,
+            "DependAssets": [],
+            "DependBundles": []
+        }
+    ],
+    "BundleInfos": [
+        {
+            "BundleName": "assets_game_assetspackage_datas.bundle",
+            "FileName": "dc35ccbd566670c98378d2e0c6aacc99.bundle",
+            "FileHash": "dc35ccbd566670c98378d2e0c6aacc99",
+            "FileCRC": 0,
+            "FileSize": 3897,
+            "Encrypted": false,
+            "Tags": [
+                "GameConfig"
+            ],
+            "DependBundles": [],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/Game/AssetsPackage/Datas/突发公共卫生事件_CaseSurvey.json",
+                    "AssetGUID": "fe44a2f8c8665b146a384fd5a697884e"
+                },
+                {
+                    "AssetPath": "Assets/Game/AssetsPackage/Datas/突发公共卫生事件_Disinfect.json",
+                    "AssetGUID": "ae359c9b908daee44bd69e7581ba6eff"
+                }
+            ]
+        }
+    ],
+    "IndependAssets": []
+}

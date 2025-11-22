@@ -1,0 +1,217 @@
+{
+    "FileVersion": "2025.8.28",
+    "EnableAddressable": false,
+    "SupportExtensionless": true,
+    "LocationToLower": false,
+    "IncludeAssetGUID": false,
+    "OutputNameStyle": 0,
+    "BuildBundleType": 1,
+    "BuildPipeline": "EditorSimulateBuildPipeline",
+    "PackageName": "DefaultPackage",
+    "PackageVersion": "Simulate",
+    "PackageNote": "2025/11/9 21:17:30",
+    "AssetList": [
+        {
+            "Address": "",
+            "AssetPath": "Assets/Game/AssetsPackage/Datas/fragment.csv",
+            "AssetGUID": "",
+            "AssetTags": [
+                "GameConfig"
+            ],
+            "BundleID": 0,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Game/AssetsPackage/Datas/fruit.csv",
+            "AssetGUID": "",
+            "AssetTags": [
+                "GameConfig"
+            ],
+            "BundleID": 0,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Game/AssetsPackage/Datas/JsonText.txt",
+            "AssetGUID": "",
+            "AssetTags": [
+                "GameConfig"
+            ],
+            "BundleID": 0,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Game/AssetsPackage/Datas/突发公共卫生事件_CaseSurvey.json",
+            "AssetGUID": "",
+            "AssetTags": [
+                "GameConfig"
+            ],
+            "BundleID": 0,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Game/AssetsPackage/Datas/突发公共卫生事件_Disinfect.json",
+            "AssetGUID": "",
+            "AssetTags": [
+                "GameConfig"
+            ],
+            "BundleID": 0,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Game/AssetsPackage/Scenes/main.unity",
+            "AssetGUID": "",
+            "AssetTags": [
+                "mainScene"
+            ],
+            "BundleID": 1,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Game/AssetsPackage/Sounds/回答1_01.mp3",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Sound"
+            ],
+            "BundleID": 2,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Game/AssetsPackage/Sounds/回答1_02.mp3",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Sound"
+            ],
+            "BundleID": 2,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Game/AssetsPackage/Sounds/回答1_03.mp3",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Sound"
+            ],
+            "BundleID": 2,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Game/AssetsPackage/Sounds/回答1_04.mp3",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Sound"
+            ],
+            "BundleID": 2,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Game/AssetsPackage/Sounds/回答2.mp3",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Sound"
+            ],
+            "BundleID": 2,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Game/AssetsPackage/Sounds/回答3.mp3",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Sound"
+            ],
+            "BundleID": 2,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Game/AssetsPackage/Sounds/回答4.mp3",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Sound"
+            ],
+            "BundleID": 2,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Game/AssetsPackage/Sounds/回答5.mp3",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Sound"
+            ],
+            "BundleID": 2,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Game/AssetsPackage/Sounds/回答6.mp3",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Sound"
+            ],
+            "BundleID": 2,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Game/AssetsPackage/Sounds/回答7.mp3",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Sound"
+            ],
+            "BundleID": 2,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Game/AssetsPackage/Sounds/回答8 9 10 11  13  18.mp3",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Sound"
+            ],
+            "BundleID": 2,
+            "DependBundleIDs": []
+        }
+    ],
+    "BundleList": [
+        {
+            "BundleName": "assets_game_assetspackage_datas.bundle",
+            "UnityCRC": 0,
+            "FileHash": "58a8abd9685d3fbff1b1394a3d1975cd",
+            "FileCRC": 0,
+            "FileSize": 22771,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "assets_game_assetspackage_scenes.bundle",
+            "UnityCRC": 0,
+            "FileHash": "6d652eccc50e3b3b8ee0f0378ab3ac81",
+            "FileCRC": 0,
+            "FileSize": 7322,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "assets_game_assetspackage_sounds.bundle",
+            "UnityCRC": 0,
+            "FileHash": "03f3d040e02c4219e697d916f20d11dc",
+            "FileCRC": 0,
+            "FileSize": 398768,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        }
+    ]
+}

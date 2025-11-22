@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Boot/AssetsPackage/startup.unity
     guid: c38aaaed0c0ec1140b7b04310d892ff7
   - enabled: 1
-    path: Assets/Game/AssetPackage/Scenes/main.unity
+    path: Assets/Game/AssetsPackage/Scenes/main.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

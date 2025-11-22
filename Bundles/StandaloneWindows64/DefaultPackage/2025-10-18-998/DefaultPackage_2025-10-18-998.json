@@ -1,0 +1,49 @@
+{
+    "FileVersion": "2025.8.28",
+    "EnableAddressable": false,
+    "SupportExtensionless": true,
+    "LocationToLower": false,
+    "IncludeAssetGUID": false,
+    "OutputNameStyle": 0,
+    "BuildBundleType": 2,
+    "BuildPipeline": "ScriptableBuildPipeline",
+    "PackageName": "DefaultPackage",
+    "PackageVersion": "2025-10-18-998",
+    "PackageNote": "2025/10/18 16:38:50",
+    "AssetList": [
+        {
+            "Address": "",
+            "AssetPath": "Assets/Game/AssetsPackage/Datas/突发公共卫生事件_CaseSurvey.json",
+            "AssetGUID": "",
+            "AssetTags": [
+                "GameConfig"
+            ],
+            "BundleID": 0,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Game/AssetsPackage/Datas/突发公共卫生事件_Disinfect.json",
+            "AssetGUID": "",
+            "AssetTags": [
+                "GameConfig"
+            ],
+            "BundleID": 0,
+            "DependBundleIDs": []
+        }
+    ],
+    "BundleList": [
+        {
+            "BundleName": "assets_game_assetspackage_datas.bundle",
+            "UnityCRC": 3501954730,
+            "FileHash": "dc35ccbd566670c98378d2e0c6aacc99",
+            "FileCRC": 0,
+            "FileSize": 3897,
+            "Encrypted": false,
+            "Tags": [
+                "GameConfig"
+            ],
+            "DependBundleIDs": []
+        }
+    ]
+}
