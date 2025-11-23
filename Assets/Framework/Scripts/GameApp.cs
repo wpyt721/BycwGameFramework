@@ -21,17 +21,17 @@ public class GameApp : UnitySingleton<GameApp>
     {
         Debug.Log("Enter Game");
         
-        //测试同步资源加载
-        TextAsset t = ResMgr.Instance.LoadAssetSync<TextAsset>("Datas/突发公共卫生事件_CaseSurvey");
-        Debug.Log(t.text);
-        //end
-        
-        //异步加载
-        var h = ResMgr.Instance.LoadAssetAsync<TextAsset>("Datas/突发公共卫生事件_Disinfect");
-        yield return h;
-        t = h.AssetObject as TextAsset;
-        h.Dispose();//h.Release();
-        Debug.Log(t.text);
+        // //测试同步资源加载
+        // TextAsset t = ResMgr.Instance.LoadAssetSync<TextAsset>("Datas/突发公共卫生事件_CaseSurvey");
+        // Debug.Log(t.text);
+        // //end
+        //
+        // //异步加载
+        // var h = ResMgr.Instance.LoadAssetAsync<TextAsset>("Datas/突发公共卫生事件_Disinfect");
+        // yield return h;
+        // t = h.AssetObject as TextAsset;
+        // h.Dispose();//h.Release();
+        // Debug.Log(t.text);
         //end
         
         //编写游戏逻辑
@@ -94,10 +94,18 @@ public class GameApp : UnitySingleton<GameApp>
         // var resCode = jsonData["rst"]["rstCode"].ToString();
         // Debug.Log(resCode);
         
-        GameDataMgr.Instance.ReadConfigData<fragment>(null, false);
-        fragment data = GameDataMgr.Instance.GetConfigData<fragment>("100101");
-        Debug.Log(data.fruitId);
-        // yield break;
+        // ExcelDataMgr.Instance.ReadConfigData<fragment>(null, false);
+        // fragment data = ExcelDataMgr.Instance.GetConfigData<fragment>("100101");
+        // Debug.Log(data.fruitId);
+        // // yield break;
+        
+        
+        //http 测试
+        HttpUtils.Get("https://www.baidu.com", null, (err, body) =>
+        {
+            if(err == null)
+                Debug.Log(body);
+        });
     }
 
     private void OnTestCall(string test, object udata)
