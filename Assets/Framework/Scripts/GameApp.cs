@@ -76,23 +76,28 @@ public class GameApp : UnitySingleton<GameApp>
         // SoundMgr.Instance.PlayOneShot("Sounds/回答1_01");
         
         
-        //json序列化与反序列化的测试
-        UserLogin user = new UserLogin();
-        user.uname = "test";
-        user.upwd = "123456";
-        user.status = -101;
+        // //json序列化与反序列化的测试
+        // UserLogin user = new UserLogin();
+        // user.uname = "test";
+        // user.upwd = "123456";
+        // user.status = -101;
+        //
+        // string jsonStr = JsonMapper.ToJson(user);
+        // Debug.Log(jsonStr);
+        //
+        // var byteData = jsonStr.ToCharArray();
+        //
+        // //反序列化
+        // string jsonFileStr = ResMgr.Instance.LoadAssetSync<TextAsset>("Datas/JsonText").text;
+        // JsonData jsonData = JsonMapper.ToObject(jsonFileStr);
+        // Debug.Log(jsonData.ToString());
+        // var resCode = jsonData["rst"]["rstCode"].ToString();
+        // Debug.Log(resCode);
         
-        string jsonStr = JsonMapper.ToJson(user);
-        Debug.Log(jsonStr);
-
-        var byteData = jsonStr.ToCharArray();
-        
-        //反序列化
-        string jsonFileStr = ResMgr.Instance.LoadAssetSync<TextAsset>("Datas/JsonText").text;
-        JsonData jsonData = JsonMapper.ToObject(jsonFileStr);
-        Debug.Log(jsonData.ToString());
-        var resCode = jsonData["rst"]["rstCode"].ToString();
-        Debug.Log(resCode);
+        GameDataMgr.Instance.ReadConfigData<fragment>(null, false);
+        fragment data = GameDataMgr.Instance.GetConfigData<fragment>("100101");
+        Debug.Log(data.fruitId);
+        // yield break;
     }
 
     private void OnTestCall(string test, object udata)

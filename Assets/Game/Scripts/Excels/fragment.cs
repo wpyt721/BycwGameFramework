@@ -1,6 +1,6 @@
 using System.Collections;
 
-public class fragment
+public class fragment : GameDataMgr
 {
 	public string ID;
 	public float difficulty;
