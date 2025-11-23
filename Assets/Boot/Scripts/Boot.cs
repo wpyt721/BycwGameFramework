@@ -34,7 +34,8 @@ public class Boot : UnitySingleton<Boot>
         this.gameObject.AddComponent<EventMgr>().Init();
         this.gameObject.AddComponent<TimerMgr>().Init();
         this.gameObject.AddComponent<SoundMgr>().Init();
-        GameDataMgr.Instance.Init();
+        ExcelDataMgr.Instance.Init();
+        this.gameObject.AddComponent<NodePoolMgr>().Init();
         
         this.gameObject.AddComponent<SceneMgr>().Init();
         this.gameObject.AddComponent<GameApp>().Init();

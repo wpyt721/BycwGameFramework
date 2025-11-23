@@ -36,13 +36,15 @@ public class GameApp : UnitySingleton<GameApp>
         
         //编写游戏逻辑
         // yield return SceneMgr.Instance.IE_RunScene("Scenes/main.unity");
+        
+        yield return SceneMgr.Instance.RunScene("Scenes/main");
+        
         TestGame();
         yield break;
     }
     
-    void TestGame()
+    async void TestGame()
     {
-        SceneMgr.Instance.RunScene("Scenes/main");
         // Debugger.Log("test game1");
         // Debugger.Log("test game2");
         // Debugger.Log("test game3");
@@ -101,11 +103,22 @@ public class GameApp : UnitySingleton<GameApp>
         
         
         //http 测试
-        HttpUtils.Get("https://www.baidu.com", null, (err, body) =>
+        // HttpUtils.Get("https://www.baidu.com", null, (err, body) =>
+        // {
+        //     if(err == null)
+        //         Debug.Log(body);
+        // });
+        
+        // 节点池的测试
+        NodePoolMgr.Instance.AddNodePool("Models/Cube.prefab", 10);
+        GameObject cube = NodePoolMgr.Instance.Get("Models/Cube.prefab");
+        cube.transform.SetParent(null, false);
+        cube.transform.position = new Vector3(10, 10, 10);
+
+        TimerMgr.Instance.ScheduleOnce((o =>
         {
-            if(err == null)
-                Debug.Log(body);
-        });
+            NodePoolMgr.Instance.Recycle("Models/Cube.prefab", cube);
+        }), 5);
     }
 
     private void OnTestCall(string test, object udata)

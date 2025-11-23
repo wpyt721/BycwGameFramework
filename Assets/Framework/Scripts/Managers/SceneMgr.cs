@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Threading.Tasks;
 using UnityEngine.SceneManagement;
 
 public class SceneMgr : UnitySingleton<SceneMgr>
@@ -15,7 +16,7 @@ public class SceneMgr : UnitySingleton<SceneMgr>
         SceneManager.LoadScene(sceneName);
     }
     
-    public async void RunScene(string sceneName)
+    public async Task RunScene(string sceneName)
     {
         var h = ResMgr.Instance.LoadSceneAsync(sceneName, "DefaultPackage");
         await h.Task;

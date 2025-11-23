@@ -9,7 +9,7 @@
     "BuildPipeline": "EditorSimulateBuildPipeline",
     "PackageName": "DefaultPackage",
     "PackageVersion": "Simulate",
-    "PackageNote": "2025/11/23 19:37:06",
+    "PackageNote": "2025/11/23 21:20:19",
     "AssetList": [
         {
             "Address": "",
@@ -63,12 +63,20 @@
         },
         {
             "Address": "",
+            "AssetPath": "Assets/Game/AssetsPackage/Models/Cube.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
             "AssetPath": "Assets/Game/AssetsPackage/Scenes/main.unity",
             "AssetGUID": "",
             "AssetTags": [
                 "mainScene"
             ],
-            "BundleID": 1,
+            "BundleID": 2,
             "DependBundleIDs": []
         },
         {
@@ -78,7 +86,7 @@
             "AssetTags": [
                 "Sound"
             ],
-            "BundleID": 2,
+            "BundleID": 3,
             "DependBundleIDs": []
         },
         {
@@ -88,7 +96,7 @@
             "AssetTags": [
                 "Sound"
             ],
-            "BundleID": 2,
+            "BundleID": 3,
             "DependBundleIDs": []
         },
         {
@@ -98,7 +106,7 @@
             "AssetTags": [
                 "Sound"
             ],
-            "BundleID": 2,
+            "BundleID": 3,
             "DependBundleIDs": []
         },
         {
@@ -108,7 +116,7 @@
             "AssetTags": [
                 "Sound"
             ],
-            "BundleID": 2,
+            "BundleID": 3,
             "DependBundleIDs": []
         },
         {
@@ -118,7 +126,7 @@
             "AssetTags": [
                 "Sound"
             ],
-            "BundleID": 2,
+            "BundleID": 3,
             "DependBundleIDs": []
         },
         {
@@ -128,7 +136,7 @@
             "AssetTags": [
                 "Sound"
             ],
-            "BundleID": 2,
+            "BundleID": 3,
             "DependBundleIDs": []
         },
         {
@@ -138,7 +146,7 @@
             "AssetTags": [
                 "Sound"
             ],
-            "BundleID": 2,
+            "BundleID": 3,
             "DependBundleIDs": []
         },
         {
@@ -148,7 +156,7 @@
             "AssetTags": [
                 "Sound"
             ],
-            "BundleID": 2,
+            "BundleID": 3,
             "DependBundleIDs": []
         },
         {
@@ -158,7 +166,7 @@
             "AssetTags": [
                 "Sound"
             ],
-            "BundleID": 2,
+            "BundleID": 3,
             "DependBundleIDs": []
         },
         {
@@ -168,7 +176,7 @@
             "AssetTags": [
                 "Sound"
             ],
-            "BundleID": 2,
+            "BundleID": 3,
             "DependBundleIDs": []
         },
         {
@@ -178,7 +186,7 @@
             "AssetTags": [
                 "Sound"
             ],
-            "BundleID": 2,
+            "BundleID": 3,
             "DependBundleIDs": []
         }
     ],
@@ -189,6 +197,16 @@
             "FileHash": "58a8abd9685d3fbff1b1394a3d1975cd",
             "FileCRC": 0,
             "FileSize": 22771,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "assets_game_assetspackage_models.bundle",
+            "UnityCRC": 0,
+            "FileHash": "aa6711e4d7b6de688a511f078b0815db",
+            "FileCRC": 0,
+            "FileSize": 2985,
             "Encrypted": false,
             "Tags": [],
             "DependBundleIDs": []
